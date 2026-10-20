@@ -32,6 +32,7 @@ Two plugins may not define the same command. A plugin that needs a dependency ad
 | Plugin | Command | What it does |
 |---|---|---|
 | [wordcount](plugins/wordcount.js) | `jot count` | Counts the words across all your notes. |
+| [clip](plugins/clip.js) | `jot clip <url>` | Saves a web page as a markdown note, using [Firecrawl](https://docs.firecrawl.dev). Reads `FIRECRAWL_API_KEY`. |
 
 ## Testing
 
